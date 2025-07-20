@@ -3,6 +3,10 @@
 
 #include <stdint.h>
 
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+
 #define CTLIOCGINFO 0xc0644e03UL
 
 struct ctl_info {
